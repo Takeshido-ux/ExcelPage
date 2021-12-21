@@ -1,0 +1,33 @@
+button, input{
+    outline: none !important;
+    border: none;
+}
+.excel {
+    min-width: 1000px;
+    overflow-y: auto;
+}
+.rowww {
+    display: flex;
+}
+.column {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 110px;
+    min-height: 30px;
+    cursor: pointer;
+}
+.first-col {
+    border-left: 1px solid black;
+    min-width: 50px !important;
+}
+.btnChangeFz{
+    margin-top: 40px;
+}
+.btnChangeWh{
+    margin-top: 40px;
+    margin-left: 40px;
+}
